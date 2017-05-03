@@ -116,7 +116,7 @@ services:
     rootfsPropagation: shared
 files:
   - path: root/.ssh/authorized_keys
-    contents: '# Your ssh key goes here'
+    contents: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDcBDgguo12lSHgkvmp0Eg9rlzeGUNhcQXEkFE4CYvTHYszPlZguDPE6nRJPxWx6U1gx/CjZsCMuL6EuAEMuU2Xjj+gbj/mnXaBnYWkzI61o6biiF2V8YlFltATCb/MSriOSWjaWCWNkJLURsiIMgqW5kNFA5NcEYS22CqkPZx/Amh+9EcAyrYMdjkJLGqaZv7lbGqJ2CYMDjGvMvLsDWICUmsJ8WOruawcNpI91sID+H6JNAqYoqO/JU7ORmlNBO8rsimIfz0hHQkxgGGAVvARDtRtRo+toL+YDodN6HUoFidLj2LRNelTZjkO2J/PpCbea+Ad28fzK8zRzWPwD0SRSc37nlAXvx3fMeNoVoe+wsgkdcmQ7IIS9TRjPx32R+lkmVHBnPh1B9EyhTl5eOhBECcKWFMT3zAzUJ4BeOWy6wLSluudxd6Qxfi9rzHuohvzJtq4ySFDgwOdiM+dQYS3dK96zgE0QdCpuk3p3WT9idhwZjsFT96F7WRX73S/JEh5LVVHAcbHjAHqStOCIuIgY9BoETYbRetlucjRLbfkWPm4eBBJuIyW9Nh8aohHKCEnP6eoM2V0aeaD82uCO7s/IUiHrIPE8oXNTv6zbrQ8uv1VnFapMcRhLumBVTZjJlLOrl6CrfDpkm8/yo8eHAJM2Waao6Q2+8ZScSFfGq6nAw== anonymuse+wopr@gmail.com'
   - {path: etc/cni, directory: true}
   - {path: opt/cni, directory: true}
 outputs:
